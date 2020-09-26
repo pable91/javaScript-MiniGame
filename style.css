@@ -1,3 +1,112 @@
 body {
-  /* background-color: black; */
+  background-image: url("/carrot/img/background.png");
+
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.game {
+}
+
+.game__header {
+  text-align: center;
+}
+
+.game__button {
+  width: 5%;
+  height: 70px;
+
+  border: solid;
+  border-radius: 10px;
+
+  background-color: bisque;
+}
+
+.game__button i {
+  font-size: 25px;
+}
+
+.game__button:focus {
+  outline: none;
+}
+
+.game__timer {
+  display: block;
+
+  width: 15%;
+  height: 70px;
+
+  line-height: 70px;
+
+  border: solid;
+  border-radius: 10px;
+
+  font-size: 30px;
+  font-weight: 800;
+
+  margin: auto;
+  margin-top: 10px;
+
+  background-color: white;
+}
+
+.game__score {
+  display: inline-block;
+
+  width: 70px;
+  height: 70px;
+
+  line-height: 70px;
+
+  font-size: 30px;
+  font-weight: 1000;
+
+  border: solid;
+  border-radius: 500px;
+
+  margin-top: 10px;
+
+  background-color: white;
+}
+
+.pop-up {
+  position: absolute;
+
+  top: 70%;
+  left: 30%;
+  width: 40%;
+  height: 200px;
+
+  text-align: center;
+  border-radius: 20px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pop-up__refresh {
+  width: 8%;
+  height: 70px;
+
+  border: solid;
+  border-radius: 10px;
+
+  margin-top: 10px;
+  background-color: bisque;
+}
+
+.pop-up__refresh:focus {
+  outline: none;
+}
+
+.pop-up__refresh i {
+  font-size: 30px;
+}
+
+.pop-up__message {
+  display: block;
+
+  font-size: 80px;
+
+  color: beige;
 }
